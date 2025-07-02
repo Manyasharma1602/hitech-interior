@@ -1,0 +1,17 @@
+.footer-icon{
+    color:  white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background: transparent;
+}
+
+.footer-icon:hover{
+  transform: rotate(360deg);
+}
+
+.ceo {
+    color: rgb(169, 54, 169) !important;
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.1);
+    font-size: 2rem;
+}

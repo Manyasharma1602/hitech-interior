@@ -1,0 +1,57 @@
+
+.pink-purple-text {
+  color: #b846c5 !important; /* A shade of pink-purple. Adjust as needed. */
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+/*  hover effects */
+.nav-link-custom:hover {
+  color: #f797cfc9 !important; 
+}
+
+.hitech-symbol {
+  height: 50px; /* Adjust as needed - experiment with this value */
+  width: auto; /* Maintain aspect ratio */
+  margin-left: 0px; /* Add some space between the symbol and the text */
+  vertical-align: middle; /* Helps with vertical alignment if d-flex isn't used or if fine-tuning is needed */
+}
+ @media screen and (max-width: 768px){
+    .hitech-symbol{
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+
+
+/*Logo*/
+/* navbar.css */
+
+.hitech-logo {
+  font-family: Arial, sans-serif; /* Or your preferred font */
+  font-size: 1.5em; /* Adjust size as needed */
+  font-weight: bold; /* If you want it bold */
+  text-transform: uppercase; /* To match the all caps in your image */
+  margin-right: 10px;
+
+  @media screen and (max-width: 768px){
+    .hitech-logo{
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+
+  /* Gradient styling */
+  background-image: linear-gradient(to right,#800080, #FFFFFF); /* Example gradient colors */
+  /* You'll need to pick colors that match your desired gradient */
+  -webkit-background-clip: text; /* For Webkit browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+

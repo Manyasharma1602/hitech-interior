@@ -1,0 +1,45 @@
+.service-description {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-heading {
+    background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+}
+
+.btn-custom {
+  background: linear-gradient(to right, #ff69b4, #800080);
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #ff69b4, #800080);
+  transform: translateY(-2px);
+}
+
+.card-title{
+    font-size: 28px;
+    gap: 1;
+}
+
+.card-text{
+    font-weight: 200;
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+.main-card{
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 2rem;
+}

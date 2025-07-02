@@ -1,0 +1,130 @@
+.btn-custom{
+    background: linear-gradient(to right, #ff69b4, #800080);
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #ff69b4, #800080);
+  transform: translateY(-2px);
+}
+
+.btn-heading{
+     background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+}
+
+.btn-para{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    font-style: sans-serif;
+}
+
+.project-high{
+     background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.main-card{
+    border: 2px solid white;
+    background: rgb(7, 7, 27);
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.img{
+    width: fit-content;
+}
+
+.img-heading{
+     background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.img-text{
+    font-size: 19px;
+    font-style: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.over-box{
+     border: 2px solid white;
+    background: rgb(7, 7, 27);
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.over-heading{
+     background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.service-description{
+    font-size: 20px;
+    font-style: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.feature-box{
+     border: 2px solid white;
+    background: rgb(7, 7, 27);
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.key-heading{
+     background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.key-list{
+     font-size: 20px;
+    font-style: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-title{
+    background-image: linear-gradient(to right, #ff69b4, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+}
+
+.main-img{
+    border: 2px solid white;
+    border-radius: 8px;
+}
