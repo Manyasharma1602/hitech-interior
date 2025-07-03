@@ -16,9 +16,11 @@ app.use(express.json()); // Body parser for JSON requests
 // CORS setup (IMPORTANT for connecting frontend and backend)
 // For development, allow all origins. For production, restrict to your frontend URL.
 // Replace 'http://localhost:3000' with your deployed frontend URL (e.g., https://your-firebase-app.web.app)
-//app.use(cors({
-//  origin: process.env.NODE_ENV === 'production' ? 'https://your-firebase-app.web.app' : 'http://localhost:3000'
-//}));
+
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production' ? 'https://hitech-interior.vercel.app' : 'http://localhost:3000',
+  optionsSuccessStatus: 200
+}));
 
 
 // Define Routes
