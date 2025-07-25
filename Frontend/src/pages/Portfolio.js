@@ -6,19 +6,19 @@ const Portfolio = () => {
   // Initialize with your existing reviews plus rating
   const [reviews, setReviews] = useState([
     {
-      name: "Ishmil Ansari",
+      name: "Rohan Mehta",
       message: "The team transformed our living space beautifully!",
       rating: 5,
       date: "May 2025"
     },
     {
-      name: "Aatika Saquib", 
+      name: "Ritika Das", 
       message: "Excellent attention to detail and timely work.",
       rating: 5,
       date: "April 2025"
     },
     {
-      name: "Karuna Kirti",
+      name: "Karan Kapoor",
       message: "Loved the modern minimalistic design they delivered.",
       rating: 4,
       date: "March 2025"

@@ -75,3 +75,41 @@ body{
   transform: scale(1.05);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Mobile Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .home-background {
+    height: 100vh;
+    padding: 0 1rem;
+    background-attachment: scroll;
+  }
+  
+  .home-background h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .home-background .lead {
+    font-size: 1.1rem !important;
+    margin-bottom: 2rem;
+  }
+  
+  .explore-button {
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    min-height: 48px;
+    min-width: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-background h1 {
+    font-size: 2rem !important;
+  }
+  
+  .home-background .lead {
+    font-size: 1rem !important;
+  }
+}

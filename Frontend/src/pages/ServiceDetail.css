@@ -128,3 +128,76 @@
     border: 2px solid white;
     border-radius: 8px;
 }
+
+
+
+
+/* Mobile Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 2rem !important;
+    line-height: 1.2;
+    padding: 0 1rem;
+  }
+
+  .main-img {
+    max-height: 220px !important;
+    margin: 0 1rem;
+    max-width: 85%;
+  }
+
+  .over-box,
+  .feature-box,
+  .main-card {
+    margin: 0.75rem !important;
+    padding: 1rem !important;
+    border-radius: 8px;
+  }
+
+  .over-heading,
+  .key-heading {
+    font-size: 1.4rem !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-description,
+  .key-list {
+    font-size: 0.85rem !important;
+    line-height: 1.5;
+  }
+
+  .key-list li {
+    margin-bottom: 0.4rem;
+  }
+
+  .project-high {
+    font-size: 1.4rem !important;
+    padding: 0 1rem;
+  }
+
+  .img-heading {
+    font-size: 1.2rem !important;
+    margin-bottom: 0.3rem;
+  }
+
+  .img-text {
+    font-size: 0.85rem !important;
+  }
+
+  .btn-heading {
+    font-size: 1.4rem !important;
+  }
+
+  .btn-para {
+    font-size: 0.9rem !important;
+    padding: 0 1rem;
+  }
+
+  .over-box,
+  .feature-box {
+    max-width: 80% !important; /* shrink width */
+    margin: 0.75rem auto !important; /* center align */
+    padding: 1rem !important;
+    border-radius: 10px;
+  }
+}

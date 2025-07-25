@@ -71,3 +71,57 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+
+
+
+
+
+/* Global Mobile Responsive Fixes */
+
+/* Ensure all images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve touch targets */
+.btn, button, a {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Better text readability on mobile */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .display-1, .display-2, .display-3, .display-4 {
+    line-height: 1.2 !important;
+  }
+  
+  .lead {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Mobile utility classes */
+@media screen and (max-width: 768px) {
+  .mobile-center {
+    text-align: center !important;
+  }
+  
+  .mobile-full-width {
+    width: 100% !important;
+  }
+}

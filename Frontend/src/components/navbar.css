@@ -1,6 +1,6 @@
 
 .pink-purple-text {
-  color: #b846c5 !important; /* A shade of pink-purple. Adjust as needed. */
+  color: #b846c5 !important; 
 }
 
 .text-white {
@@ -13,10 +13,10 @@
 }
 
 .hitech-symbol {
-  height: 50px; /* Adjust as needed - experiment with this value */
-  width: auto; /* Maintain aspect ratio */
-  margin-left: 0px; /* Add some space between the symbol and the text */
-  vertical-align: middle; /* Helps with vertical alignment if d-flex isn't used or if fine-tuning is needed */
+  height: 50px; 
+  width: auto; 
+  margin-left: 0px; 
+  vertical-align: middle; 
 }
  @media screen and (max-width: 768px){
     .hitech-symbol{
@@ -30,25 +30,76 @@
 /* navbar.css */
 
 .hitech-logo {
-  font-family: Arial, sans-serif; /* Or your preferred font */
-  font-size: 1.5em; /* Adjust size as needed */
-  font-weight: bold; /* If you want it bold */
-  text-transform: uppercase; /* To match the all caps in your image */
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
   margin-right: 10px;
-
-  @media screen and (max-width: 768px){
-    .hitech-logo{
-      font-size: 1rem;
-      text-align: left;
-    }
-  }
-
-  /* Gradient styling */
-  background-image: linear-gradient(to right,#800080, #FFFFFF); /* Example gradient colors */
-  /* You'll need to pick colors that match your desired gradient */
-  -webkit-background-clip: text; /* For Webkit browsers */
+  background-image: linear-gradient(to right,#800080, #FFFFFF);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
+  /* Gradient styling */
+  background-image: linear-gradient(to right,#800080, #FFFFFF); 
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+/* Mobile Hamburger Menu Fixes */
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    border: 2px solid #ff69b4 !important;
+    border-radius: 5px;
+    padding: 4px 8px;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 105, 180, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.95);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: 12px 0 !important;
+    font-size: 1.1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Logo Mobile Fixes */
+@media screen and (max-width: 768px) {
+  .hitech-symbol {
+    height: 35px !important;
+  }
+  
+  .hitech-logo {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hitech-symbol {
+    height: 30px !important;
+  }
+  
+  .hitech-logo {
+    font-size: 1rem !important;
+  }
 }
 
 

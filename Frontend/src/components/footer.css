@@ -15,3 +15,234 @@
     text-shadow: 0 0 10px rgba(255, 105, 180, 0.1);
     font-size: 2rem;
 }
+
+/* Mobile Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .footer-icon {
+    font-size: 1.8rem !important;
+    margin: 0.5rem !important;
+    padding: 10px;
+    min-width: 48px;
+    min-height: 48px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .ceo {
+    font-size: 1.5rem !important;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    padding: 2rem 1rem !important;
+  }
+  
+  footer p {
+    font-size: 1.1rem !important;
+    line-height: 1.5;
+  }
+}
+
+
+
+
+
+
+/* Mobile Responsive Footer Fixes*/ 
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem !important;
+    text-align: center !important;
+  }
+  
+  /* Copyright text */
+  footer p:first-child {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Social media icons container */
+  .social-icons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin: 1.5rem 0 !important;
+    flex-wrap: wrap !important;
+  }
+  
+  /* Individual social icons */
+  .footer-icon {
+    font-size: 2rem !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+  }
+  
+  /* Icon hover effect */
+  .footer-icon:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    transform: scale(1.1) !important;
+  }
+  
+  /* "Designed with passion" text */
+  footer p:nth-child(3) {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    margin: 1.5rem 0 1rem 0 !important;
+  }
+  
+  /* CEO text */
+  .ceo {
+    font-size: 1.3rem !important;
+    text-align: center !important;
+    margin: 1rem 0 !important;
+    font-weight: bold !important;
+    color: rgb(169, 54, 169) !important;
+  }
+}
+
+/* Additional mobile fixes for very small screens */
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 1.5rem 0.75rem !important;
+  }
+  
+  .footer-icon {
+    font-size: 1.8rem !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
+    padding: 10px !important;
+  }
+  
+  .social-icons {
+    gap: 0.8rem !important;
+  }
+  
+  footer p {
+    font-size: 0.9rem !important;
+  }
+  
+  .ceo {
+    font-size: 1.2rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsive Footer Fixes */
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem !important;
+    text-align: center !important;
+  }
+  
+  /* Copyright text */
+  footer p:first-child {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Social media icons container */
+  .social-icons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin: 1.5rem 0 !important;
+    flex-wrap: wrap !important;
+  }
+  
+  /* Individual social icons */
+  .footer-icon {
+    font-size: 2rem !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+  }
+  
+  /* Icon hover effect */
+  .footer-icon:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    transform: scale(1.1) !important;
+  }
+  
+  /* "Designed with passion" text */
+  footer p:nth-child(3) {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    margin: 1.5rem 0 1rem 0 !important;
+  }
+  
+  /* CEO text */
+  .ceo {
+    font-size: 1.3rem !important;
+    text-align: center !important;
+    margin: 1rem 0 !important;
+    font-weight: bold !important;
+    color: #e91e63 !important; /* Pink color as shown in your design */
+  }
+}
+
+/* Additional mobile fixes for very small screens */
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 1.5rem 0.75rem !important;
+  }
+  
+  .footer-icon {
+    font-size: 1.8rem !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
+    padding: 10px !important;
+  }
+  
+  .social-icons {
+    gap: 0.8rem !important;
+  }
+  
+  footer p {
+    font-size: 0.9rem !important;
+  }
+  
+  .ceo {
+    font-size: 1.2rem !important;
+  }
+}

@@ -43,3 +43,60 @@
     border-radius: 8px;
     margin-top: 2rem;
 }
+
+
+/* Mobile Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .service-heading {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    text-align: center;
+  }
+
+  .service-description {
+    font-size: 0.85rem !important;
+    padding: 0 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .card-container {
+    flex-direction: column !important;
+    padding: 0 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .main-card {
+    width: 95% !important;
+    max-width: 350px;
+    margin: 0 auto 0.75rem auto !important;
+    padding: 0.75rem 0.75rem 0.5rem !important;
+    border-radius: 10px;
+  }
+
+  .main-card img {
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 1rem !important;
+    margin: 0.25rem 0 0.3rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem !important;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-custom {
+    width: 100% !important;
+    padding: 6px !important;
+    font-size: 0.8rem !important;
+    min-height: 36px;
+    border-radius: 5px;
+  }
+}
